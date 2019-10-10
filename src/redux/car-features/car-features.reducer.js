@@ -29,7 +29,7 @@ const useReducer = (state = INITIAL_STATE, action) => {
               return feature.id !== action.payload.id
             })
           },
-          additionalFeatures: [...state.additionalFeatures, action.payload]
+         // additionalFeatures: [...state.additionalFeatures, action.payload]
         };
     case 'PURCHASE_ITEM':
       return {
